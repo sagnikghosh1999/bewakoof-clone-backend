@@ -1,0 +1,24 @@
+{
+  "name": "bewakoof-clone",
+  "version": "1.0.0",
+  "description": "this is a dummy backend of bewakoof.com using node-express-mongodb",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "nodemon index.js",
+    "start": "node index.js"
+  },
+  "author": "sagnik",
+  "license": "ISC",
+  "dependencies": {
+    "bcryptjs": "^2.4.3",
+    "cookie-parser": "^1.4.6",
+    "cors": "^2.8.5",
+    "dotenv": "^16.0.3",
+    "express": "^4.18.2",
+    "jsonwebtoken": "^9.0.0",
+    "mongoose": "^6.9.0",
+    "query-string": "^8.1.0",
+    "validator": "^13.7.0"
+  }
+}
